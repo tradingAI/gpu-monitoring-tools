@@ -4,6 +4,7 @@ package nvml
 
 // #cgo linux LDFLAGS: -ldl -Wl,--unresolved-symbols=ignore-in-object-files
 // #cgo darwin LDFLAGS: -ldl -Wl,-undefined,dynamic_lookup
+
 // #include "nvml.h"
 import "C"
 
